@@ -1,0 +1,18 @@
+:let @w = '"xdiWdwep"xp'
+:let @e = '@wf,w@w;w@wj0'
+:let @r = "V:!sed 's/, /\\n/g' | sort | tr '\\n' ','"
+:let @t = 'f,h142;h132;h12'
+Gogg0qq:s/^/\r/ | s/: /\r/ | s/; /\r/g | s/$/\r/
+{2jV}k:g!/\d\+ red/norm A, 0 red
+gv:g!/\d\+ green/norm A, 0 green
+gv:g!/\d\+ blue/norm A, 0 blue
+gv:norm @e
+gv:norm @r
+{2jV}k:norm @t
+{jV}2k:s/\n/;/g
+jdd2kddjqVGk:norm @q
+:g/\(blue\|green\|red\) [1-9]\+/d
+gg0qqdwf;DjqVG:norm @q
+:g/^\s*$/de
+:%s/\n/+/g
+$x0C="
