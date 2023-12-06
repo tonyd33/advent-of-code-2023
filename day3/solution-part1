@@ -1,10 +1,0 @@
-yyPVr.yyGpggyPGr.gvy$p0/\d\+
-qqmmhkje2lj"aygv:s/\%V\(\*\|\/\|@\|+\|&\|#\|\$\|=\|%\|-\)\%V/./ge
-gv"by:if @a == @b | exe "norm gvhr." | else | exe 'norm gv"ap' | endif
-`m/\d\+
-q2000@q:%s/\(\*\|\/\|@\|+\|&\|#\|\$\|=\|%\|-\|\.\)\+/+/g
-:%s/^+\|+$//g
-:%s/+\+/+/g
-:%s/\n/+/g
-:%s/^+\+\|+\+$//g
-0C="
