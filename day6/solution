@@ -1,0 +1,6 @@
+bro it's just solving a quadratic formula and kinematics.
+i'm not even gonna bother overengineering a vim solution.
+here's the equation for the range of numbers based on time = T, distance = D
+f(T, D) = floor((-T - sqrt(T^2 - 4D)) / -2) + ceil((-T + sqrt(T^2 - 4D)) / -2) + 1
+
+literally just read the file and input that into your favorite calculator
